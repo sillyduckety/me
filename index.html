@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="styles.css">
+<body>
+  <div id="introduction">
+    <img src="japow.jpg" alt="hello" style="max-width: 100%; height: 50%;">
+	<p>Nico is a learner and builder from Shanghai living in US. She is a shape rotator aspiring to write more and become a wordcel too. <br /><br /> Currently tinkering on the frontier of crypto applications through building fully on-chain casual games that are engaging, fun, and can only be built on-chain. She sees a future where game creation is democratized just as how social media democratizes media, with user-generated games, open economy, and novel in-game social dynamics flourish on-chain.<br /><br /> Drawn to strategy board games, poker & chess, drawbacks of tradfi that crypto can improve, futarchy, mechanism design, future, and history.<br /><br /> Fan of biographies, non-fictions, contemporary art, probabilities, snowboarding, tennis <br /><br /> Once upon a time, did some modeling (in fashion, not on excel)  
+    <ul class="expandable">
+      <li>Past Experiences
+	<ul class="sub-list">
+		<li>Experience 1</li>
+		<li>Experience 2</li>
+</ul> 
+</li>
+      <li>Select Builds</li>
+      <li>Select Writings</li>
+    </ul>
+<p><a href="mailto:nicopei321@gmail.com">email</a> <a href="https://twitter.com/sillyduckety">twitter</a> <a href="https://www.linkedin.com/in/nico-p-a2770a136/">linkedin</a> <a href="https://www.goodreads.com/user/show/66639895-nico-p">goodreads</a> <p/> 
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var pastExperiences = document.getElementById('pastExperiences');
+      var subList = pastExperiences.querySelector('.sub-list');
+
+      pastExperiences.addEventListener('click', function () {
+        subList.classList.toggle('expanded');
+      });
+    });
+  </script>
+</body>
